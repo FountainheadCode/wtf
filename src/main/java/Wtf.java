@@ -39,7 +39,7 @@ class ProxyFactory implements MethodInterceptor {
             Object o,
             Method method,
             Object[] objects,
-            MethodProxy methodProxy) throws Throwable {
+            MethodProxy methodProxy){
 
         return null;
     }
@@ -265,7 +265,7 @@ class Sina implements Observer {
 
     @Override
     public void update(float tem, float pre, float hum) {
-
+        System.out.println("hot-fix merge");
     }
 }
 
