@@ -265,7 +265,7 @@ class Sina implements Observer {
 
     @Override
     public void update(float tem, float pre, float hum) {
-        System.out.println("hot-fix merge");
+        System.out.println("hot-fix merge2");
     }
 }
 
